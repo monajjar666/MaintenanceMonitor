@@ -9,4 +9,6 @@ public class MonitorController {
     public String resetMessage(){
     return "Everything works as expected";
     }
+
+    //A comment just to test push
 }

@@ -1,11 +1,9 @@
 package at.fhtw.bic.monitor.controller;
 
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
-class MonitorControllerTest {
-
+public class MonitorControllerTest {
     @Test
     void setMessage() {
         MonitorController controller = new MonitorController();

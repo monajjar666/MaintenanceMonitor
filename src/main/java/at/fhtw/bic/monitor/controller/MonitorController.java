@@ -11,7 +11,8 @@ public class MonitorController {
     
     @GetMapping("/api/message/reset")
     public String resetMessage(){
-        return "Everything works as expected";
+        this.message = "Everything works as expected";
+        return message;
     }
     
     @GetMapping("api/message")

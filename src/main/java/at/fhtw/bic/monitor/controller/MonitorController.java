@@ -25,4 +25,10 @@ public class MonitorController {
         }
         return "not ok";
     }
+
+    @GetMapping("api/message/status")
+    public String retrieveMessage(){
+        return message;
+    }
+
 }

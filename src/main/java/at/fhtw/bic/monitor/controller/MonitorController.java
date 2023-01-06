@@ -25,6 +25,9 @@ public class MonitorController {
         return "not ok";
     }
 
-    //A comment just to test push
-    //this is just a second line after we were added to the collaborateurs list
+    @GetMapping("api/message")
+    public String retrieveMessage(){
+        return message;
+    }
+
 }

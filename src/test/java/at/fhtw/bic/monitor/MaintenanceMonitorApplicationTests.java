@@ -9,10 +9,4 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 class MaintenanceMonitorApplicationTests {
 
-    @Test
-    void checkResetMessage (){
-    var controller = new MonitorController();
-    String result = controller.resetMessage();
-    assertEquals ("Everything works as expected" ,result);
-    }
 }

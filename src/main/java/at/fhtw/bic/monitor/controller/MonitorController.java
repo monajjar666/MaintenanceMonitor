@@ -15,7 +15,7 @@ public class MonitorController {
         return message;
     }
     
-    @GetMapping("api/message")
+    @GetMapping("api/message/set")
     @ResponseBody
     public String setMessage(@RequestParam String message){
         this.message = message;
@@ -26,7 +26,7 @@ public class MonitorController {
         return "not ok";
     }
 
-    @GetMapping("api/message/status")
+    @GetMapping("api/message")
     public String retrieveMessage(){
         return message;
     }

@@ -17,7 +17,7 @@ public class MonitorController {
     
     @GetMapping("api/message/set")
     @ResponseBody
-    public String setMessage(@RequestParam String message){
+    public String setMessage(@RequestParam String m){
         this.message = message;
 
         if(this.message.equals(message)){
